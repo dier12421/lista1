@@ -1,49 +1,49 @@
-let numeros = [10, 20, 5, 30, 40];
+let numeros = [10, 20, 5, 30, 40]; //1
 console.log(numeros.indexOf(5));
 
-let nomes = ["Ana", "Beatriz", "Carlos"];
+let nomes = ["Ana", "Beatriz", "Carlos"]; //2
 console.log(nomes.includes("Carlos"));
 
-let frutas = ["maçã", "banana", "laranja"];
+let frutas = ["maçã", "banana", "laranja"]; //3
 console.log(frutas);
 
-let numeros2 = [5, 10, 15, 20];
+let numeros2 = [5, 10, 15, 20]; //4
 console.log(numeros2.indexOf(15));
 
-let cores = ["azul", "verde", "vermelho"]
+let cores = ["azul", "verde", "vermelho"] //5
 console.log(cores.includes("amarelo"))
 
-let linguagens = ["JavaScript", "Python", "Java"];
+let linguagens = ["JavaScript", "Python", "Java"]; //6
 console.log(linguagens);
 
-let animais = ["gato", "cachorro", "pássaro", "cachorro"];
+let animais = ["gato", "cachorro", "pássaro", "cachorro"]; //7
 console.log(animais.indexOf("cachorro"));
 
-let frutas2 = ["maçã", "banana", "uva"];
+let frutas2 = ["maçã", "banana", "uva"]; //8
 console.log(frutas2.includes("laranja"));
 
-let numeros3 = [1, 2, 3, 4], 
+let numeros3 = [1, 2, 3, 4], //9
 soma = numeros3.reduce((a, b) => a + b, 0); 
 console.log(soma);
 
-let frutas3 = ["banana", "maçã", "laranja"];
+let frutas3 = ["banana", "maçã", "laranja"]; //10
 console.log(frutas3.includes("morango"))
 
-let linguagens2 = ["JavaScript", "Python", "Java"];
+let linguagens2 = ["JavaScript", "Python", "Java"]; //11
 console.log(linguagens2.indexOf("Python"));
 
-let numeros4 = [2, 4, 6];
-let resultado = numeros4.map(num => num * 2);
+let numeros4 = [2, 4, 6]; //12
+let resultado = numeros4.map(num => num * 2); //12
 console.log(resultado);
 
-let esportes = ["futebol", "basquete", "natação"];
+let esportes = ["futebol", "basquete", "natação"]; /13
 console.log(esportes.includes("beisebol"))
 
-let frutas4 = ["maçã", "banana", "laranja"];
+let frutas4 = ["maçã", "banana", "laranja"]; //14
 let quantidadeDeFrutas = frutas4.length;
 console.log(quantidadeDeFrutas);
 
-let cores2 = ["azul", "verde", "vermelho", "amarelo"];
+let cores2 = ["azul", "verde", "vermelho", "amarelo"]; //15
 let indiceVermelho = cores.indexOf("vermelho");
 console.log(indiceVermelho);
 
