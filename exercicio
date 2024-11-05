@@ -22,8 +22,8 @@
 //let frutas2 = ["maçã", "banana", "uva"];
 //console.log(frutas2.includes("laranja"));
 
-//let numeros = [1, 2, 3, 4], 
-//soma = numeros.reduce((a, b) => a + b, 0); 
+//let numeros3 = [1, 2, 3, 4], 
+//soma = numeros3.reduce((a, b) => a + b, 0); 
 //console.log(soma);
 
 //let frutas3 = ["banana", "maçã", "laranja"];
